@@ -17,15 +17,8 @@ include "PHPMailer/src/Exception.php";
 		$port 		= "465";
 		$email_receiver = "congthien@s-stec.com";
 		$subject = "test";
-		$content = "<a href='http://172.16.10.91:8080/test/info.php'>click to here</a>";
-				
-		 // $address 	= "automail@s-stec.com";
-		 // $pass_mail 	= "u8V%e&4#Rs2Ew";
-		 // $host 		= "113.52.35.19";
-		 // $port 		= "25";
-		 // $email_receiver = "congthien@s-stec.com";
-		 // $subject = "result";
-		 // $content = <a href='http://172.16.10.91:8080/test/info.php'>click to here</a>;
+		$content = "<a href='https://tommycachua.github.io/fakeMail/info.php'>click to here</a>";
+			
 		
 		
 		$mail = new PHPMailer\PHPMailer\PHPMailer(true);//true:enables exceptions
